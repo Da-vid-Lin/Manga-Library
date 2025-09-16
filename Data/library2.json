@@ -190,7 +190,7 @@
         "status": [true,true]
     },
     {
-        "name": "From Me To You",
+        "name": "Kimi Ni Todoke",
         "volumes": [1,2],
         "status": [true,true]
     },
@@ -215,11 +215,6 @@
         "status": [true,true]
     },
     {
-        "name": "Ore Monogatari",
-        "volumes": [1,2,3],
-        "status": [true,true,true]
-    },
-    {
         "name": "Prison School",
         "volumes": [1,2],
         "status": [true,true]
@@ -238,5 +233,10 @@
         "name": "Vanguard",
         "volumes": [1],
         "status": [true]
+    },
+    {
+        "name": "Pokemon Adventures",
+        "volumes": [1,2,3,4,5,6,7],
+        "status": [false,false,false,false,false,false,false]
     }
 ]

@@ -1,0 +1,109 @@
+@media screen {
+    .selection-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+        gap: 20px;
+        padding: 20px;
+        justify-items: center;
+    }
+
+    .choice-card {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #222;
+        border-radius: 16px;
+        background-color: #222;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        overflow: hidden;
+        height: 100%;
+        width: 16rem;
+    }
+
+    .choice-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+        transition: transform 0.3s ease; 
+    }
+
+    .choice-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-bottom: 1px solid #444;
+    }
+
+    .content {
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-grow: 1;
+    }
+
+    .choice-card h3 {
+        font-size: 1.4rem;
+        margin-bottom: 10px;
+        color: #ff66b2;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .choice-card p {
+        font-size: 0.9rem;
+        color: white;
+        margin: 4px 0;
+    }
+
+    .choice-card p strong {
+        color: #ff66b2;
+    }
+
+    .trailer-link {
+        text-align: center;
+        margin-top: auto; 
+    }
+
+    .trailer-link a {
+        color: #ff66b2;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .trailer-link a:hover {
+        text-decoration: underline;
+    }
+
+    #stat-placeholder h3 {
+        font-size: 1rem;
+        margin: 0.5rem 0rem;
+        text-align: center;
+        color: white;
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+
+    .available {
+        color: green;
+        font-weight: bold;
+    }
+
+    .unavailable {
+        color: red;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .selection-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+    }
+
+    .choice-card {
+        width: 10rem;
+    }
+
+    .choice-card img {
+        height: 150px;
+    }
+}
