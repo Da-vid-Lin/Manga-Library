@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Qmul Asoc | Favourites </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="/">
+    <link rel="icon" href="Images/logo.jpg" type="image/x-icon"/>
+    <link rel="stylesheet" href="Style/style.css" type="text/css"/>
+    <link rel="stylesheet" href="Pages/Tools/Favourite/favourite.css" type="text/css"/>
+    <script src="Script/nav.js" defer=""></script>
+    <script src="Pages/Tools/Favourite/favourite.js" defer=""></script>
+</head>
+
+<header>
+    <div id="nav-placeholder"></div>
+</header>
+
+<body>
+    <h1>Favourite Anime</h1>
+    
+    <main>
+        <select id="searchType">
+            <option value="anime">Anime</option>
+            <option value="manga">Manga</option>
+            <option value="characters">Characters</option>
+        </select>
+        <input type="text" id="searchInput" placeholder="Search..." autocomplete="off">
+        <button id="search-btn">Search</button>
+        <div class="search-container2">
+            <select id="faveType">
+                <option value="1">Favourite Anime But Different</option>
+                <option value="2">Favourite Anime Of Every Year</option>
+                <option value="3">Favourite Anime Beginning With</option>
+            </select>
+        </div>
+        <div id="results"></div>
+        <div id="board"></div>
+        <button class="download-btn" id="download-btn">Download Board</button>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    </main>
+</body>
+
+<footer>
+    <div id="footer-placeholder"></div>    
+</footer>
+
+</html>

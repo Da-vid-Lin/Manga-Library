@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Qmul Asoc | Spinner</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="/">
+    <link rel="icon" href="Images/logo.jpg" type="image/x-icon"/>
+    <link rel="stylesheet" href="Style/style.css" type="text/css"/>
+    <link rel="stylesheet" href="Pages/Tools/Spinner/spinner.css" type="text/css"/>
+    <script src="Script/nav.js" defer=""></script>
+    <script src="Pages/Tools/Spinner/spinner.js" defer=""></script>
+</head>
+
+<header>
+    <div id="nav-placeholder"></div>
+</header>
+
+<body>
+    <h1>Plan To Watch Chooser</h1>
+  
+
+    <main>
+        <p class="subtitle">Enter a MyAnimeList username to fill the wheel</p>
+
+        <div class="search-container2">
+            <select id="searchType">
+                <option value="anime">Anime</option>
+                <option value="manga">Manga</option>
+            </select>
+        </div>
+
+        <div class="search-container">
+            <div class="search-box">
+                <input type="text" id="username" placeholder="Enter mal username..." autocomplete="off">
+                <button id="search-btn">Search</button>
+            </div>
+        </div>
+
+        <div class="loading">
+            <div class="spinner"></div>
+            <p>Loading user data...</p>
+        </div>
+
+        <div class="error" id="error-message"></div>
+
+        <div class="wheel-container">
+            <canvas id="animeWheel" width="500" height="500"></canvas>
+            <br>
+            <br>
+            <br>
+            <h2>Click Wheel To Spin</h2>
+        </div>
+
+        <div id="result"></div>
+
+    </main>
+</body>
+
+<footer>
+    <div id="footer-placeholder"></div>    
+</footer>
+
+</html>

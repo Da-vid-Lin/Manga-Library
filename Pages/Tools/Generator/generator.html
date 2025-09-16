@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Qmul Asoc | Generator</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="/">
+    <link rel="icon" href="Images/logo.jpg" type="image/x-icon"/>
+    <link rel="stylesheet" href="Style/style.css" type="text/css"/>
+    <link rel="stylesheet" href="Pages/Tools/Generator/generator.css" type="text/css"/>
+    <script src="Script/nav.js" defer=""></script>
+    <script src="Pages/Tools/Generator/generator.js" defer=""></script>
+</head>
+
+<header>
+    <div id="nav-placeholder"></div>
+</header>
+
+<body>
+    <h1>3x3 Board Generator</h1>
+    
+    <main>
+        <select id="searchType">
+            <option value="anime">Anime</option>
+            <option value="manga">Manga</option>
+            <option value="characters">Characters</option>
+        </select>
+        <input type="text" id="searchInput" placeholder="Search..." autocomplete="off">
+        <button id="search-btn" onclick="searchAnime()">Search</button>
+        <div id="results"></div>
+        <div id="board"></div>
+        <button class="download-btn" onclick="downloadBoard()">Download Board</button>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    </main>
+</body>
+
+<footer>
+    <div id="footer-placeholder"></div>    
+</footer>
+
+</html>

@@ -1,0 +1,188 @@
+@media screen {
+    main {
+        max-width: 90vw;
+        margin: 0 auto;
+    }
+
+    .subtitle {
+        text-align: center;
+        margin-bottom: 2rem;
+        font-size: 1.1rem;
+    }
+
+    .search-container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+    .search-container2 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+    .search-box {
+        display: flex;
+        max-width: 500px;
+        width: 100%;
+    }
+
+    #username {
+        flex: 1;
+        padding: 0.8rem 1rem;
+        background-color: #1e1e1e;
+        border: 2px solid #333;
+        border-right: none;
+        border-radius: 8px 0 0 8px;
+        color: white;
+        font-size: 1rem;
+        outline: none;
+        transition: border-color 0.3s;
+    }
+
+    #username:focus {
+        border-color: #bb86fc;
+    }
+
+    #search-btn {
+        padding: 0 1.5rem;
+        background-color: #bb86fc;
+        color: black;
+        border: none;
+        border-radius: 0 8px 8px 0;
+        cursor: pointer;
+        font-size: 1rem;
+        font-weight: 600;
+        transition: background-color 0.3s;
+    }
+
+    #search-btn:hover {
+        background-color: #a370d9;
+    }
+
+    .loading {
+        text-align: center;
+        margin: 2rem 0;
+        display: none;
+    }
+
+    .spinner {
+        border: 4px solid #222;
+        border-radius: 50%;
+        border-top: 4px solid #bb86fc;
+        width: 40px;
+        height: 40px;
+        animation: spin 1s linear infinite;
+        margin: 0 auto 1rem;
+    }
+
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+
+    .error {
+        color: #ff6b6b;
+        background-color: #222;
+        padding: 1rem;
+        border-radius: 8px;
+        margin: 2rem 0;
+        text-align: center;
+        display: none;
+    }
+
+    .section-title {
+        font-size: 1.3rem;
+        color: #bb86fc;
+        margin-bottom: 1rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid #333;
+    }
+
+    .wheel-container {
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    canvas {
+        max-width: 100%;
+        height: auto;
+        border: 4px solid #fff;
+        border-radius: 50%;
+        background: #111;
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    }
+    
+    #result {
+        margin-top: 15px;
+        font-size: 1.1rem;
+        color: #fff;
+    }
+    
+    #searchType {
+        outline: none;
+        background-color: #1e1e1e;
+        border: 2px solid #333;
+        border-radius: 8px;
+        color: white;
+        padding: 8px;
+        font-size: 16px;
+        margin: 5px;
+    }
+
+
+    #searchType:hover {
+        border-color: white;
+    }
+
+    #result {
+        display: grid;
+        grid-template-rows: auto auto;
+        gap: 1rem;
+        background-color: #222;
+        width: 75%;
+        border-radius: 0.5rem;
+        margin: 2rem auto;
+    }
+
+    #result strong {
+        color: #bb86fc;
+    }
+
+    #result1 {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    #result2 {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 1rem;
+        padding: 1rem;
+        text-align: left;
+    }
+
+    .anime-img {
+        width: 100%;
+        height: auto;
+        max-width: 400px;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+
+    .trailer-link {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #bb86fc;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+    .trailer-link:hover {
+        background-color: #9e72e0;
+    }
+}

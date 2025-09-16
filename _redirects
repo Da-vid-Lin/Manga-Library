@@ -1,0 +1,17 @@
+# Internal redirects for main pages
+/Home / 200
+/Library /Pages/Asoc/Library/library 200
+
+/Favourite /Pages/Tools/Favourite/favourite 200
+/3By3 /Pages/Tools/Generator/generator 200
+/Spinner /Pages/Tools/Spinner/spinner 200
+
+# External redirects for direct visits
+/ /Home 301
+/Pages/Asoc/Library/library /Library 301
+
+/Pages/Tools/Favourite/favourite /Favourite 301
+/Pages/Tools/Generator/generator /3By3 301
+/Pages/Tools/Spinner/spinner /Spinner 301
+
+

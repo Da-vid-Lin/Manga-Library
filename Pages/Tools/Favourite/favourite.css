@@ -1,0 +1,127 @@
+@media screen {
+    main {
+        text-align: center;
+    }
+
+    #board {
+        display: grid;
+        background-color: black;
+        padding: 0.5rem;
+        grid-template-columns: repeat(6, 1fr);
+        max-width: 800px;
+        gap: 2px;
+        margin: 20px auto;
+        background: black;
+    }
+
+    .cell:nth-of-type(25) {
+        grid-column: 3;
+    }
+    .cell:nth-of-type(26) {
+        grid-column: 4;
+    }
+
+    .cell {
+        height: 180px;
+        width: 100%;
+        position: relative;
+        background-color: white;
+        cursor: pointer;
+        padding-bottom: 20px;
+    }
+
+    .cell.selected {
+        outline: 4px solid #bb86fc;
+        z-index: 10000;
+    }
+
+    .cell img {
+        position: absolute;
+        cursor: move;
+        transform-origin: center;
+        border: 0.25rem solid white;
+        box-sizing: border-box;
+    }
+
+    .caption {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background: white;
+        color: black;
+        font-size: 12px;
+        text-align: center;
+        padding: 2px 4px;
+        box-sizing: border-box;
+        z-index: 100;
+
+        line-height: 1.2em;
+        height: 2.7em;
+        overflow: hidden;
+    }
+
+    #results {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .result {
+        margin: 5px;
+        cursor: pointer;
+        text-align: center;
+        max-width: 120px;
+    }
+
+    .result img {
+        height: 100px;
+        border: 2px solid transparent;
+        border-radius: 5px;
+    }
+
+    .result:hover {
+        transform: scale(1.05);
+    }
+
+    .result:hover img {
+        border-color: #bb86fc;
+    }
+
+    .cell-selector {
+        margin-top: 10px;
+    }
+
+    #search-btn, #searchType, #searchInput, #faveType {
+        outline: none;
+        background-color: #1e1e1e;
+        border: 2px solid #333;
+        border-radius: 8px;
+        color: white;
+        padding: 8px;
+        font-size: 16px;
+        margin: 5px;
+    }
+
+
+    #search-btn:hover, #searchType:hover, #searchInput:hover, #faveType:hover {
+        border-color: white;
+    }
+
+    .download-btn {
+        all: unset;
+        background-color: #1e1e1e;
+        border: 2px solid #333;
+        border-radius: 8px;
+        color: white;
+        margin-top: 20px;
+        padding: 10px 15px;
+        font-size: 16px;
+        transition: transform 0.3s, border-color 0.3s;
+    }
+
+    .download-btn:hover {
+        transform: translateY(-10px);
+        border-color: white;
+    }
+}
