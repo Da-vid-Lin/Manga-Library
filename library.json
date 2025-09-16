@@ -1,0 +1,197 @@
+[
+    {
+        "name": "Monster",
+        "volumes": [1,2,3,4,5,6],
+        "status": [false,false,false,false,false,false]
+    },
+    {
+        "name": "Neon Genesis Evangelion",
+        "volumes": [1,2,3,4,5,6,7,8,9],
+        "status": [false,false,false,false,false,false,false,false,false]
+    },
+    {
+        "name": "I Am A Hero",
+        "volumes": [1,2,3,4],
+        "status": [false,false,false,false]
+    },
+    {
+        "name": "All You Need Is Kill",
+        "volumes": [1],
+        "status": [false]
+    },
+    {
+        "name": "Pluto",
+        "volumes": [1,2,3,4,5,6,7,8],
+        "status": [false,false,false,false,false,false,false,false]
+    },
+    {
+        "name": "Tokyo Ghoul",
+        "volumes": [1,2,3],
+        "status": [false,false,false]
+    },
+    {
+        "name": "Made In Abyss",
+        "volumes": [1],
+        "status": [false]
+    },
+    {
+        "name": "Gangsta",
+        "volumes": [1,2,3],
+        "status": [false,false,false]
+    },
+    {
+        "name": "Master Keaton",
+        "volumes": [1,2],
+        "status": [false,false]
+    },
+    {
+        "name": "Jojo's Bizarre Adventure Part 1",
+        "volumes": [1,2,3],
+        "status": [false,false,false]
+    },
+    {
+        "name": "Jojo's Bizarre Adventure Part 2",
+        "volumes": [1],
+        "status": [false]
+    },
+    {
+        "name": "Goodnight Punpun",
+        "volumes": [3,4,5,6],
+        "status": [false,false,false,false]
+    },
+    {
+        "name": "Akira",
+        "volumes": [2],
+        "status": [false]
+    },
+    {
+        "name": "Tomie",
+        "volumes": [1,2,3],
+        "status": [false,false,false]
+    },
+    {
+        "name": "Attack On Titan Before The Fall",
+        "volumes": [1,2,3,4,5],
+        "status": [false,false,false,false,false]
+    },
+    {
+        "name": "Attack On Titan",
+        "volumes": [1,2,3,4,5],
+        "status": [false,false,false,false,false]
+    },
+    {
+        "name": "My Love Story",
+        "volumes": [1,2,3],
+        "status": [false,false,false]
+    },
+    {
+        "name": "Assassination Classroom",
+        "volumes": [1,2,3],
+        "status": [false,false,false]
+    },
+    {
+        "name": "Noragami",
+        "volumes": [1,2,3],
+        "status": [false,false,false]
+    },
+    {
+        "name": "Blue Exorcist",
+        "volumes": [1,1,2,2,3],
+        "status": [false,false,false,false,false]
+    },
+    {
+        "name": "My Hero Academia",
+        "volumes": [1,2,3,4,5,6],
+        "status": [false,false,false,false,false,false]
+    },
+    {
+        "name": "Tegami Bachi",
+        "volumes": [1,2],
+        "status": [false,false]
+    },
+    {
+        "name": "School Live",
+        "volumes": [1,2,3],
+        "status": [false,false,false]
+    },
+    {
+        "name": "D Gray Man",
+        "volumes": [1,2,3,4,5,6,7,8,9],
+        "status": [false,false,false,false,false,false,false,false,false]
+    },
+    {
+        "name": "One Punch Man",
+        "volumes": [1,2,3,4],
+        "status": [false,false,false,false]
+    },
+    {
+        "name": "Deadman Wonderland",
+        "volumes": [1],
+        "status": [false]
+    },
+    {
+        "name": "Yotsuba &!",
+        "volumes": [1,2],
+        "status": [false,false]
+    },
+    {
+        "name": "The Drifting Classroom",
+        "volumes": [1,2],
+        "status": [false,false]
+    },
+    {
+        "name": "Shaman King",
+        "volumes": [1],
+        "status": [false]
+    },
+    {
+        "name": "Spirit Circle",
+        "volumes": [1],
+        "status": [false]
+    },
+    {
+        "name": "Ranma 1/2",
+        "volumes": [1,2],
+        "status": [false,false]
+    },
+    {
+        "name": "A Silent Voice",
+        "volumes": [2,3,4,5,6,7],
+        "status": [false,false,false,false,false,false]
+    },
+    {
+        "name": "20th Century Boys",
+        "volumes": [4,5,6,7,21],
+        "status": [false,false,false,false,false]
+    },
+    {
+        "name": "Berserk",
+        "volumes": [1,2,3,4,5,6,7,8,9,10,11,12,13,14],
+        "status": [true,true,false,false,false,false,false,false,false,false,false,false,false,false]
+    },
+    {
+        "name": "Maid Sama",
+        "volumes": [1,2,3,4,5,6],
+        "status": [false,false,false,false,false,false]
+    },
+    {
+        "name": "Bakuman",
+        "volumes": [1,2,3],
+        "status": [false,false,false]
+    },
+    {
+        "name": "Uzumaki",
+        "volumes": [1,2,3],
+        "status": [true,true,true]
+    },
+    {
+        "name": "Ikigami",
+        "volumes": [1,2],
+        "status": [true,true]
+    },
+    {
+        "name": "From Me To You",
+        "volumes": [1,2],
+        "status": [true,true]
+    }
+]
