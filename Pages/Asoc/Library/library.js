@@ -117,7 +117,7 @@ document.addEventListener("DOMContentLoaded", async function() {
             </div>
         `;
 
-        document.getElementById("stat-placeholder").innerHTML = `<h3>Total Available: ${totalAvailable}/${totalAvailable + totalUnavailable}</h3><h3>Green = Available To Borrow</h3>`;
+        document.getElementById("stat-placeholder").innerHTML = `<h3>Total Available: ${totalAvailable}/${totalAvailable + totalUnavailable}</h3><h3><span class="available">Green</span> = Available To Borrow</h3>`;
     }
 
     loadingElement.style.display = 'none';
