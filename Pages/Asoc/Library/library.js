@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", async function() {
     const List = listData.map(item => item.name).sort();
     
     const cacheResponse = await fetch("Data/manga_cache.json");
-    const animeCache = await cacheResponse.json();
+    const mangaCache = await cacheResponse.json();
 
     function renderMangaVolumes(mangaName) {
         const manga = listData.find(item => item.name === mangaName);
@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", async function() {
 
     document.getElementById("stat-placeholder").innerHTML = "";
 
-    let animeList = ``;
+    let mangaList = ``;
     let totalAvailable = 0;
     let totalUnavailable = 0;
 
@@ -69,10 +69,10 @@ document.addEventListener("DOMContentLoaded", async function() {
 
     for (let title of List) {
         const newTitle = title.toLowerCase().replaceAll(" ", "_");
-        let anime;
+        let manga;
 
-        if (animeCache[newTitle]) {
-            anime = animeCache[newTitle];
+        if (mangaCache[newTitle]) {
+            manga = mangaCache[newTitle];
             console.log(`Loaded from cache: ${title}`);
         } else {
             try {
@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", async function() {
                 const data = await response.json();
 
                 if (data.data && data.data.length > 0) {
-                    anime = data.data[0];
+                    manga = data.data[0];
                 } else {
                     console.log(`No results found for: ${title}`);
                 }
@@ -89,25 +89,25 @@ document.addEventListener("DOMContentLoaded", async function() {
                 await sleep(1000);
 
             } catch (error) {
-                console.error(`Error fetching anime "${title}":`, error);
+                console.error(`Error fetching manga "${title}":`, error);
             }
         }
 
-        const genres = anime.genres.map(g => g.name).join(', ');
-        const trailerLink = anime.url && anime.url ? `<a href="${anime.url}" target="_blank">Open MyAnimeList</a>` : "Trailer not available.";
+        const genres = manga.genres.map(g => g.name).join(', ');
+        const trailerLink = manga.url && manga.url ? `<a href="${manga.url}" target="_blank">Open MyAnimeList</a>` : "Trailer not available.";
         const mangaInfo = renderMangaVolumes(title);
         totalAvailable += mangaInfo.availableCount;
         totalUnavailable += mangaInfo.unavailableCount;
 
 
-        animeList += `
+        mangaList += `
             <div class="choice-card">
                 <a href="" onclick="return false">
-                    <img src="${anime.images.jpg.large_image_url}" alt="${anime.title}">
+                    <img src="${manga.images.jpg.large_image_url}" alt="${manga.title}">
                     <div class="content">
-                        <h3>${anime.title_english ?? anime.title}</h3>
+                        <h3>${manga.title_english ?? manga.title}</h3>
                         <hr>
-                        <p><strong>Type:</strong> ${anime.type ?? "?"}</p>
+                        <p><strong>Type:</strong> ${manga.type ?? "?"}</p>
                         <p><strong>Genres:</strong> ${genres ?? "?"}</p>
                         <p><strong>Available:</strong> ${mangaInfo.html}</p>
                         <hr>
@@ -122,7 +122,7 @@ document.addEventListener("DOMContentLoaded", async function() {
 
     loadingElement.style.display = 'none';
 
-    document.getElementById("list-placeholder").innerHTML = animeList;
+    document.getElementById("list-placeholder").innerHTML = mangaList;
 
 });
 
