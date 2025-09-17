@@ -1,9 +1,38 @@
+async function fetchMangaSheet() {
+    const sheetId = "2PACX-1vR1RKFrE4p-lyzf0P3-sDOaVV7i50Nx2DfbTYauHTg9S3UjTn7wzMXGNPTTmmvh_sUYNrqTbw_p4niX";
+    const url = `https://docs.google.com/spreadsheets/d/e/${sheetId}/pub?output=csv`;
+
+    const response = await fetch(url);
+    const text = await response.text();
+    const rows = text.trim().split("\n").map(line => line.split(","));
+    const dataRows = rows.slice(1);
+    const mangaMap = {};
+
+    dataRows.forEach(row => {
+        const name = row[0].trim();
+        const volume = Number(row[1].trim());
+        const available = row[2].trim().toLowerCase() === "true";
+
+        if (!mangaMap[name]) {
+            mangaMap[name] = { name, volumes: [], status: [] };
+        }
+
+        mangaMap[name].volumes.push(volume);
+        mangaMap[name].status.push(available);
+    });
+
+    // Convert map to array
+    const mangaData = Object.values(mangaMap);
+
+    return mangaData;
+}
+
+
 document.addEventListener("DOMContentLoaded", async function() {
     const loadingElement = document.querySelector('.loading');
     loadingElement.style.display = 'block';
 
-    const listResponse = await fetch("Data/library2.json");
-    const listData = await listResponse.json();
+    const listData = await fetchMangaSheet();
     const List = listData.map(item => item.name).sort();
     
     const cacheResponse = await fetch("Data/manga_cache.json");
