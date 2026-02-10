@@ -238,5 +238,56 @@
         "name": "Pokemon Adventures",
         "volumes": [1,2,3,4,5,6,7],
         "status": [false,false,false,false,false,false,false]
+    },
+    {
+        "name": "Sakamoto Days"
+    },
+    {
+        "name": "Black Clover"
+    },
+    {
+        "name": "Phantom Busters"
+    },
+    {
+        "name": "Kaiju No 8"
+    },
+    {
+        "name": "Kagurabachi"
+    },
+    {
+        "name": "Banana Fish"
+    },
+    {
+        "name": "Disney Twisted Wonderland The Comic"
+    },
+    {
+        "name": "Haikyu"
+    },
+    {
+        "name": "Choujin X"
+    },
+    {
+        "name": "My New Boss Is Goofy"
+    },
+    {
+        "name": "Seaside Stranger: Umibe No Etranger"
+    },
+    {
+        "name": "Tokyo Revengers"
+    },
+    {
+        "name": "Lost In The Cloud"
+    },
+    {
+        "name": "Heaven Official Blessing"
+    },
+    {
+        "name": "Grandmaster Of Demonic Cultivation"
+    },
+    {
+        "name": "I Ship My Rival X Me"
+    },
+    {
+        "name": "One Piece"
     }
 ]
