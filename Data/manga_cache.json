@@ -7203,104 +7203,223 @@
     ]
   },
   "disney_twisted_wonderland_the_comic": {
-    "mal_id": 135861,
-    "url": "https://myanimelist.net/manga/135861/Disney_Twisted-Wonderland_the_Comic__Episode_of_Heartslabyul",
-    "images": {
-      "jpg": {
-        "image_url": "https://cdn.myanimelist.net/images/manga/2/250321.jpg",
-        "small_image_url": "https://cdn.myanimelist.net/images/manga/2/250321t.jpg",
-        "large_image_url": "https://cdn.myanimelist.net/images/manga/2/250321l.jpg"
-      },
-      "webp": {
-        "image_url": "https://cdn.myanimelist.net/images/manga/2/250321.webp",
-        "small_image_url": "https://cdn.myanimelist.net/images/manga/2/250321t.webp",
-        "large_image_url": "https://cdn.myanimelist.net/images/manga/2/250321l.webp"
-      }
-    },
-    "approved": true,
-    "titles": [
-      {
-        "type": "Default",
-        "title": "Disney Twisted-Wonderland the Comic: Episode of Heartslabyul"
-      },
-      {
-        "type": "Japanese",
-        "title": "DISNEY TWISTED-WONDERLAND THE COMIC ～EPISODE of HEARTSLABYUL～"
-      },
-      {
-        "type": "English",
-        "title": "Disney Twisted-Wonderland: Book of Heartslabyul"
-      }
-    ],
-    "title": "Disney Twisted-Wonderland the Comic: Episode of Heartslabyul",
-    "title_english": "Disney Twisted-Wonderland: Book of Heartslabyul",
-    "title_japanese": "DISNEY TWISTED-WONDERLAND THE COMIC ～EPISODE of HEARTSLABYUL～",
-    "title_synonyms": [],
-    "type": "Manga",
-    "chapters": 21,
-    "volumes": 4,
-    "status": "Finished",
-    "publishing": false,
-    "published": {
-      "from": "2021-03-18T00:00:00+00:00",
-      "to": "2022-10-18T00:00:00+00:00",
-      "prop": {
-        "from": {
-          "day": 18,
-          "month": 3,
-          "year": 2021
+      "mal_id": 131892,
+      "url": "https://myanimelist.net/manga/131892/Disney_Twisted-Wonderland_Anthology_Comic",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/manga/2/238379.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/manga/2/238379t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/manga/2/238379l.jpg"
         },
-        "to": {
-          "day": 18,
-          "month": 10,
-          "year": 2022
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/manga/2/238379.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/manga/2/238379t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/manga/2/238379l.webp"
         }
       },
-      "string": "Mar 18, 2021 to Oct 18, 2022"
-    },
-    "score": 7.81,
-    "scored": 7.81,
-    "scored_by": 1089,
-    "rank": 1399,
-    "popularity": 6928,
-    "members": 3389,
-    "favorites": 133,
-    "synopsis": "Yuuken \"Yuu\" Enma is an average Japanese high school student preparing for an upcoming kendo tournament. On the night before the competition, however, a black carriage crashes into him. When he regains consciousness, Yuu finds himself at Night Raven College—a premier academic institution in the magical world of Twisted Wonderland. Only a chosen few with exceptional magical talent are admitted into the school, so it is a mystery how a human with no magic ability ended up here.\n\nAlthough Yuu desires to return home, it is easier said than done. While the school's headmaster searches for a way to send him back, Yuu is assigned manual labor around the campus. But due to the chaos at the school's entrance ceremony following his arrival, Yuu has a target painted on his back as far as Heartslabyul dorm leader Riddle Rosehearts is concerned.\n\nYuu meets and befriends Heartslabyul freshmen Ace Trappola and Deuce Spade; yet soon after, Ace and Deuce land in a situation that results in their expulsion. As the pair seek to redeem themselves, Yuu accompanies them on their perilous mission to fix school property. However, forgiveness does not come easily from the \"Crimson Tyrant\" in charge of Heartslabyul, who may have an ulterior motive behind his strictness.\n\n[Written by MAL Rewrite]",
-    "background": "Disney Twisted-Wonderland the Comic: Episode of Heartslabyul is based off Disney's mobile game Twisted-Wonderland, which reimagines classical Disney villains in a magic school setting. The series was published in English as Disney Twisted-Wonderland: Book of Heartslabyul by VIZ Media from July 11, 2023 to July 9, 2024.",
-    "authors": [
-      {
-        "mal_id": 54081,
-        "type": "people",
-        "name": "Kowono, Sumire",
-        "url": "https://myanimelist.net/people/54081/Sumire_Kowono"
-      }
-    ],
-    "serializations": [
-      {
-        "mal_id": 35,
-        "type": "manga",
-        "name": "GFantasy",
-        "url": "https://myanimelist.net/manga/magazine/35/GFantasy"
-      }
-    ],
-    "genres": [
-      {
-        "mal_id": 10,
-        "type": "manga",
-        "name": "Fantasy",
-        "url": "https://myanimelist.net/manga/genre/10/Fantasy"
-      }
-    ],
-    "explicit_genres": [],
-    "themes": [
-      {
-        "mal_id": 23,
-        "type": "manga",
-        "name": "School",
-        "url": "https://myanimelist.net/manga/genre/23/School"
-      }
-    ],
-    "demographics": []
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Disney Twisted-Wonderland Anthology Comic"
+        },
+        {
+          "type": "Synonym",
+          "title": "Disney Twisted-Wonderland: The Manga-Anthology"
+        },
+        {
+          "type": "Japanese",
+          "title": "『ディズニー ツイステッドワンダーランド』アンソロジーコミック"
+        },
+        {
+          "type": "English",
+          "title": "Disney Twisted-Wonderland: The Manga - Anthology"
+        }
+      ],
+      "title": "Disney Twisted-Wonderland Anthology Comic",
+      "title_english": "Disney Twisted-Wonderland: The Manga - Anthology",
+      "title_japanese": "『ディズニー ツイステッドワンダーランド』アンソロジーコミック",
+      "title_synonyms": [
+        "Disney Twisted-Wonderland: The Manga-Anthology"
+      ],
+      "type": "Manga",
+      "chapters": 28,
+      "volumes": 2,
+      "status": "Finished",
+      "publishing": false,
+      "published": {
+        "from": "2020-11-27T00:00:00+00:00",
+        "to": "2021-04-27T00:00:00+00:00",
+        "prop": {
+          "from": {
+            "day": 27,
+            "month": 11,
+            "year": 2020
+          },
+          "to": {
+            "day": 27,
+            "month": 4,
+            "year": 2021
+          }
+        },
+        "string": "Nov 27, 2020 to Apr 27, 2021"
+      },
+      "score": 7.76,
+      "scored": 7.76,
+      "scored_by": 469,
+      "rank": 1596,
+      "popularity": 10669,
+      "members": 1984,
+      "favorites": 65,
+      "synopsis": "An anthology of stories centered around Disney's Twisted-Wonderland game.",
+      "background": "Disney Twisted-Wonderland Anthology Comic was published in English as Disney Twisted-Wonderland: The Manga - Anthology by VIZ Media from September 10, 2024 to January 14, 2025.",
+      "authors": [
+        {
+          "mal_id": 3081,
+          "type": "people",
+          "name": "Majiko!",
+          "url": "https://myanimelist.net/people/3081/Majiko"
+        },
+        {
+          "mal_id": 3106,
+          "type": "people",
+          "name": "Yuzuki, Shou",
+          "url": "https://myanimelist.net/people/3106/Shou_Yuzuki"
+        },
+        {
+          "mal_id": 12032,
+          "type": "people",
+          "name": "Mochi",
+          "url": "https://myanimelist.net/people/12032/Mochi"
+        },
+        {
+          "mal_id": 14347,
+          "type": "people",
+          "name": "Shiota, Haruto",
+          "url": "https://myanimelist.net/people/14347/Haruto_Shiota"
+        },
+        {
+          "mal_id": 26735,
+          "type": "people",
+          "name": "CHRIS",
+          "url": "https://myanimelist.net/people/26735/CHRIS"
+        },
+        {
+          "mal_id": 39014,
+          "type": "people",
+          "name": "Natsume, Ayano",
+          "url": "https://myanimelist.net/people/39014/Ayano_Natsume"
+        },
+        {
+          "mal_id": 46978,
+          "type": "people",
+          "name": "Hirai, Runa",
+          "url": "https://myanimelist.net/people/46978/Runa_Hirai"
+        },
+        {
+          "mal_id": 48110,
+          "type": "people",
+          "name": "Amaichi, Esora",
+          "url": "https://myanimelist.net/people/48110/Esora_Amaichi"
+        },
+        {
+          "mal_id": 49494,
+          "type": "people",
+          "name": "Karasuzuki, Rui",
+          "url": "https://myanimelist.net/people/49494/Rui_Karasuzuki"
+        },
+        {
+          "mal_id": 50042,
+          "type": "people",
+          "name": "Komachi, Yuki",
+          "url": "https://myanimelist.net/people/50042/Yuki_Komachi"
+        },
+        {
+          "mal_id": 50678,
+          "type": "people",
+          "name": "Kitaguni, Rato",
+          "url": "https://myanimelist.net/people/50678/Rato_Kitaguni"
+        },
+        {
+          "mal_id": 52027,
+          "type": "people",
+          "name": "Nohara, Mosae",
+          "url": "https://myanimelist.net/people/52027/Mosae_Nohara"
+        },
+        {
+          "mal_id": 52782,
+          "type": "people",
+          "name": "Kaname, Monika",
+          "url": "https://myanimelist.net/people/52782/Monika_Kaname"
+        },
+        {
+          "mal_id": 52783,
+          "type": "people",
+          "name": "Fujimoto, Sakura",
+          "url": "https://myanimelist.net/people/52783/Sakura_Fujimoto"
+        },
+        {
+          "mal_id": 54512,
+          "type": "people",
+          "name": "Takeda, Hazumi",
+          "url": "https://myanimelist.net/people/54512/Hazumi_Takeda"
+        },
+        {
+          "mal_id": 55976,
+          "type": "people",
+          "name": "Ginno, Yuu",
+          "url": "https://myanimelist.net/people/55976/Yuu_Ginno"
+        },
+        {
+          "mal_id": 59544,
+          "type": "people",
+          "name": "Ichiruno, Nozomi",
+          "url": "https://myanimelist.net/people/59544/Nozomi_Ichiruno"
+        },
+        {
+          "mal_id": 61725,
+          "type": "people",
+          "name": "Yamada, Ryuusei",
+          "url": "https://myanimelist.net/people/61725/Ryuusei_Yamada"
+        },
+        {
+          "mal_id": 64548,
+          "type": "people",
+          "name": "Watari, Zarame",
+          "url": "https://myanimelist.net/people/64548/Zarame_Watari"
+        },
+        {
+          "mal_id": 68506,
+          "type": "people",
+          "name": "Neko, Himako",
+          "url": "https://myanimelist.net/people/68506/Himako_Neko"
+        }
+      ],
+      "serializations": [],
+      "genres": [
+        {
+          "mal_id": 4,
+          "type": "manga",
+          "name": "Comedy",
+          "url": "https://myanimelist.net/manga/genre/4/Comedy"
+        },
+        {
+          "mal_id": 10,
+          "type": "manga",
+          "name": "Fantasy",
+          "url": "https://myanimelist.net/manga/genre/10/Fantasy"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 23,
+          "type": "manga",
+          "name": "School",
+          "url": "https://myanimelist.net/manga/genre/23/School"
+        }
+      ],
+      "demographics": []
   },
   "haikyu": {
     "mal_id": 35243,
@@ -8336,7 +8455,7 @@
       "jpg": {
         "image_url": "https://cdn.myanimelist.net/images/manga/3/339956.jpg",
         "small_image_url": "https://cdn.myanimelist.net/images/manga/3/339956t.jpg",
-        "large_image_url": "https://cdn.myanimelist.net/images/manga/3/339956l.jpg"
+        "large_image_url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx126965-W5woC743YIvH.png"
       },
       "webp": {
         "image_url": "https://cdn.myanimelist.net/images/manga/3/339956.webp",
@@ -8359,8 +8478,8 @@
         "title": "俺がシフトの時だけバイト先の喫茶店に来る、クラスの美少女モデル様"
       }
     ],
-    "title": "Ore ga Shift no Toki dake Baito-saki no Kissaten ni Kuru, Class no Bishoujo Model-sama",
-    "title_english": null,
+    "title": "Wo He Wo Dui Jia",
+    "title_english": "I Ship My Rival x Me",
     "title_japanese": "俺がシフトの時だけバイト先の喫茶店に来る、クラスの美少女モデル様",
     "title_synonyms": [
       "A Beautiful Model in My Class Comes to the Coffee Shop Where I Work Part-time Only When I'm on Shift"
@@ -8396,22 +8515,13 @@
     "favorites": 0,
     "synopsis": "After school, I'm the only one who knows what my classmate truly feels when she visits the café. A love story connecting a coffee-loving high school boy and a cool, beautiful model.\n\nShizuku Kamisaka, the beautiful model currently trending everywhere. Cool and composed. And—my classmate. She's popular both in school and in the public eye. Meanwhile, Juntarou Mikage, whose only notable trait is working part-time at a café after school, lives in a completely different world. They were two people who were never supposed to cross paths—but then...\n\n\"Welcome... wait, Kamisaka?\"\n\"Mi... Mikage-kun?\"\n\nOne day, Shizuku bursts into the café with tears in her eyes—!?\n\nThis is a love story about a coffee-loving high school boy and the cool, beautiful model from his class, brought together over a single cup of coffee.\n\n(Source: SB Creative, translated)",
     "background": "",
-    "authors": [
-      {
-        "mal_id": 33089,
-        "type": "people",
-        "name": "Miwabe, Sakura",
-        "url": "https://myanimelist.net/people/33089/Sakura_Miwabe"
-      },
-      {
-        "mal_id": 42014,
-        "type": "people",
-        "name": "Kishimoto, Kazuha",
-        "url": "https://myanimelist.net/people/42014/Kazuha_Kishimoto"
-      }
-    ],
-    "serializations": [],
     "genres": [
+      {
+        "mal_id": 4,
+        "type": "manga",
+        "name": "Comedy",
+        "url": "https://myanimelist.net/manga/genre/4/Comedy"
+      },
       {
         "mal_id": 22,
         "type": "manga",
@@ -8420,8 +8530,6 @@
       }
     ],
     "explicit_genres": [],
-    "themes": [],
-    "demographics": []
   },
   "one_piece": {
     "mal_id": 13,
